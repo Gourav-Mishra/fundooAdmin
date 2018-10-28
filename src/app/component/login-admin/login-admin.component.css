@@ -1,0 +1,28 @@
+
+.form_bg {
+    background-color:rgba(0, 0, 0, 0.808);
+    color:rgb(255, 255, 255);
+    padding:20px;
+    border-radius:1%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 400px;
+}
+
+.text-center{
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.align-center {
+    text-align:center;
+}
+.h5{
+    color:rgba(223, 20, 20, 0.938);
+}
+

@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.header_logo{
+    font-size:36px;
+    padding:0px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blue{
+    color: #4285F4;
+    
+    }
+    .red{
+    color: #EA4335;
+    
+    }
+    .green{
+    color: #FBBC05;
+   
+    }
+    .yellow{
+    color:#34A853;
+    
+    }
+    
+    .admin{
+        color:white;
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    

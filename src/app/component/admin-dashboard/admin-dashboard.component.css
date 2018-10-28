@@ -1,0 +1,50 @@
+
+.main_card{
+    background: rgba(0, 0, 0, 0.555);
+    border-radius: 10%;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 450px;
+    height: 200px;
+    border: 10px wheat;
+    padding:0px;
+}
+.basic_text{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align:center;
+    margin-top:85px;
+    
+
+}
+
+.card-deck{
+    border-color: chartreuse ;
+    border-width: 10px;
+
+}
+.card3{
+    width: auto;
+    background: rgb(129, 126, 126);
+    color: white;
+    overflow-x: auto;
+   
+}
+#users_list{
+    color:black;
+}
+.table_headings{
+    color:white
+}
+.dataTables_length {
+    color: rgb(255, 255, 255);
+}
+.welcome
+{
+    font-size: 20px;
+}
+
+

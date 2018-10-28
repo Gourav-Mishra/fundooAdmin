@@ -23,9 +23,17 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/datatables/media/css/jquery.dataTables.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "/home/gourav/gourav/fundoo-admin/node_modules/jquery/dist/jquery.min.js",
+              "node_modules/datatables/media/js/jquery.dataTables.min.js",
+              
+              "/home/gourav/gourav/fundoo-admin/node_modules/bootstrap/dist/js/bootstrap.min.js"
+              
+            ]
           },
           "configurations": {
             "production": {
