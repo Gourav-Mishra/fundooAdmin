@@ -23,7 +23,12 @@ export class AdminDashboardComponent implements OnInit {
         type: "GET",
         success: function (result) {
           console.log(result);
-          var user = [];
+          var user = []; 
+          $('#approval').click(function(){
+          $(location).attr('href','app-admin-approval')
+            
+            
+          })
           for (var i = 0; i < result.data.data.length; i++) {
             user.push([(i + 1), result.data.data[i].firstName, result.data.data[i].lastName, result.data.data[i].email, result.data.data[i].service])
           }
@@ -107,7 +112,11 @@ export class AdminDashboardComponent implements OnInit {
 
           })
         })
+       
       })
+    })
+    $('#approval').click(function(){
+      $(location).attr('href','app-admin-approval') 
     })
   }
 
